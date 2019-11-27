@@ -5,7 +5,7 @@ import SortableColumnHeader from './SortableColumnHeader';
 class ProductTable extends Component {
   state = {  }
   render() { 
-    let productsAsArray = Object.keys(this.props.products).map((pid) => this.props.products[pid]);
+    let productsAsArray = Object.keys(this.props.products).map(pid => this.props.products[pid]);
     let rows = productsAsArray.map((product) => {
       return ( 
         <ProductRow product={product} key={product.id} />

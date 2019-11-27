@@ -13,7 +13,12 @@ var PRODUCTS = {
 };
 
 class Products extends Component {
-  state = {  }
+  constructor(props) {
+    super(props);
+    this.state = {
+      products: PRODUCTS
+    };
+  }
   render() { 
     return ( 
       <div>
