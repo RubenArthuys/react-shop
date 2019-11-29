@@ -19,7 +19,7 @@ class Filters extends Component {
         <input 
           type="text" 
           placeholder="Search..."
-          value={this.props.filterText}
+          value={this.props.filterText} 
           onChange={this.handleChange}
           name="filterText"
         />
