@@ -51,7 +51,7 @@ class ProductTable extends Component {
               column="name" 
             />
             <SortableColumnHeader 
-                currentSort={this.state.sort}
+              currentSort={this.state.sort}
               column="price" 
             />
           </tr>
